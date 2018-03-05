@@ -2,7 +2,7 @@
 
 Updated version of `identijenk` mentioned in "_Chapter 8 - Continuous Integration and Testing with Docker_" [Using Docker](https://www.amazon.com/Using-Docker-Developing-Deploying-Containers/dp/1491915765/ref=sr_1_1?ie=UTF8&qid=1520226136&sr=8-1&keywords=using-docker) by Adrian Mouat.
 
-Demonstrates the use of [Declaritive Multibranch Pipelines](https://jenkins.io/doc/book/pipeline/syntax/#declarative-pipeline) in Jenkins 2.x for identidock.
+Demonstrates the use of [Declaritive Multibranch Pipelines](https://jenkins.io/doc/book/pipeline/syntax/#declarative-pipeline) in Jenkins 2.x for [identidock](https://github.com/dhoer/identidock).
 
 ## Setup Jenkins Server
 
