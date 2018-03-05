@@ -1,14 +1,14 @@
 # identijenk
 
-Updated version of identijenkin found in Chapter 8 - Continous Integration and Testing with Docker from [Using Docker](https://www.amazon.com/Using-Docker-Developing-Deploying-Containers/dp/1491915765/ref=sr_1_1?ie=UTF8&qid=1520226136&sr=8-1&keywords=using-docker) by
+Updated version of `identijenk` mentioned in _Chapter 8 - Continuous Integration and Testing with Docker_ [Using Docker](https://www.amazon.com/Using-Docker-Developing-Deploying-Containers/dp/1491915765/ref=sr_1_1?ie=UTF8&qid=1520226136&sr=8-1&keywords=using-docker) by Adrian Mouat.
 
-Demos use of [Declaritive Pipeline](https://jenkins.io/doc/book/pipeline/syntax/#declarative-pipeline) in Jenkins 2.x.
+Demonstrates the use of [Declaritive Multibranch Pipelines](https://jenkins.io/doc/book/pipeline/syntax/#declarative-pipeline) in Jenkins 2.x for identidock.
 
 ## Setup Jenkins Server
 
-1. Build jenkins image:
+1. Build and start the jenkins image:
 
-        docker build -t identidock .
+        docker-compose up --build -d
 
 1. Get the initial password:
 
@@ -18,7 +18,7 @@ Demos use of [Declaritive Pipeline](https://jenkins.io/doc/book/pipeline/syntax/
 
 1. Install suggested plugins
 
-1. Get a cup  of tea or coffee
+1. Get a cup  of coffee or tea
 
 1. Create First Admin User
 
@@ -26,7 +26,7 @@ Demos use of [Declaritive Pipeline](https://jenkins.io/doc/book/pipeline/syntax/
 
 1. Add git source `git@github.com:dhoer/identidock.git`
 
-1. Create and use credentials Kind -> SSH Username with private key (allows readonly access to dhoer/identidock.git)
+1. Create and use credentials: Kind -> SSH Username with private key (allows readonly access to dhoer/identidock.git)
 
     1. Id:
 
