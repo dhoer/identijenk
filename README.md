@@ -63,7 +63,3 @@ Demos use of [Declaritive Pipeline](https://jenkins.io/doc/book/pipeline/syntax/
             -----END RSA PRIVATE KEY-----
 
 You should now see the master branch of identidock building.
-
-
-
-        docker run identidock python tests.py
