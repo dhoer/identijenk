@@ -26,7 +26,7 @@ Demos use of [Declaritive Pipeline](https://jenkins.io/doc/book/pipeline/syntax/
 
 1. Add git source `git@github.com:dhoer/identidock.git`
 
-1. Add credentials Kind SSH Username with private key (allows readonly access to dhoer/identidock.git)
+1. Create and use credentials Kind -> SSH Username with private key (allows readonly access to dhoer/identidock.git)
 
     1. Id:
 
